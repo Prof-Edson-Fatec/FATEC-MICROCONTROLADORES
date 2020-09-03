@@ -1,0 +1,6 @@
+__stringdata: SMALLCONST, 2089 0 11
+_dpowers: SMALLCONST, 2049 0 40
+_main: CODE, 2156 0 40
+__initialization: CODE, 2102 0 44
+_delay_ms: CODE, 2196 0 34
+Total: 169
