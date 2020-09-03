@@ -1,0 +1,18 @@
+_EscreveCaractereLCD: CODE, 2756 0 114
+__stringdata: SMALLCONST, 2123 0 11
+_saida: CODE, 3322 0 8
+_dpowers: SMALLCONST, 2049 0 40
+_main: CODE, 2136 0 324
+_EscreveComandoLCD: CODE, 2618 0 138
+__initialization: CODE, 3076 0 44
+_ConfiguraLCD: CODE, 2460 0 158
+main@F5414: SMALLCONST, 2089 0 17
+main@F5416: SMALLCONST, 2106 0 17
+_decrementa: CODE, 3130 0 46
+_Delay: CODE, 3246 0 34
+_delay_ms: CODE, 3212 0 34
+_PosicaoCursorLCD: CODE, 2976 0 100
+_EnderecoCursor: CODE, 2870 0 106
+_EscreveFraseRamLCD: CODE, 3176 0 36
+_incrementa: CODE, 3280 0 30
+Total: 1257

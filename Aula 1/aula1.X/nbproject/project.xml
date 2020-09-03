@@ -6,9 +6,9 @@
             <name>aula1</name>
             <creation-uuid>b9bd4434-4c9f-4531-9fdd-7e3f85f1ce48</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions/>
+            <c-extensions>c</c-extensions>
             <cpp-extensions/>
-            <header-extensions/>
+            <header-extensions>h</header-extensions>
             <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
