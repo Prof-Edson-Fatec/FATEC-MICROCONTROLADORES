@@ -6448,14 +6448,16 @@ while(1)
 {
 
 PORTBbits.RB7 = 1;
+RB0 = 0;
 delay_ms(100);
 PORTBbits.RB7 = 0;
+RB0 = 1;
 delay_ms(100);
 }
 
 }
 
-# 74
+# 76
 void delay_ms(unsigned int tempodeatraso)
 {
 while(--tempodeatraso)

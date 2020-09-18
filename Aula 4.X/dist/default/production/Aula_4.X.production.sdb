@@ -159,7 +159,7 @@
 [v _CriaCaractereLCD CriaCaractereLCD `(v  1 e 0 0 ]
 "44 C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c
 [v _main main `(v  1 e 0 0 ]
-"74
+"76
 [v _delay_ms delay_ms `(v  1 e 0 0 ]
 [s S196 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
@@ -226,16 +226,18 @@
 [v _TRISDbits TRISDbits `VES43  1 e 1 @3989 ]
 "7171
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"10485
+[v _RB0 RB0 `VEb  1 e 0 @31752 ]
 "354 D:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\doprnt.c
 [v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
 "44 C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c
 [v _main main `(v  1 e 0 0 ]
 {
-"60
+"62
 } 0
-"74
+"76
 [v _delay_ms delay_ms `(v  1 e 0 0 ]
 {
 [v delay_ms@tempodeatraso tempodeatraso `ui  1 p 2 0 ]
-"80
+"82
 } 0

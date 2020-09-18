@@ -1,5 +1,5 @@
 
-# 1 "Pisca_Led.c"
+# 1 "Seta.c"
 
 # 21 "D:\Program Files (x86)\Microchip\xc8\v1.33\include\htc.h"
 extern const char __xc8_OPTIM_SPEED;
@@ -6433,29 +6433,58 @@ extern char * ultoa(char * buf, unsigned long val, int base);
 
 extern char * ftoa(float f, int * status);
 
-# 29 "Pisca_Led.c"
+# 29 "Seta.c"
 void delay_ms(unsigned int tempodeatraso);
 
-# 44
+# 53
 void main()
 {
-
 ADCON1 = 0x0F;
-TRISB = 0x00;
-LATB = 0xFF;
+
+TRISB = 0x00000000;
+TRISE = 0x11111111;
+
 
 while(1)
 {
-
-PORTBbits.RB7 = 1;
-delay_ms(100);
+if(PORTEbits.RE0 == 0)
+{
 PORTBbits.RB7 = 0;
-delay_ms(100);
-}
+PORTBbits.RB6 = 0;
+PORTBbits.RB5 = 0;
+PORTBbits.RB4 = 0;
+delay_ms(500);
+PORTBbits.RB7 = 1;
+PORTBbits.RB6 = 1;
+PORTBbits.RB5 = 1;
+PORTBbits.RB4 = 1;
+delay_ms(500);
 
 }
 
-# 74
+if(PORTEbits.RE1 == 0)
+{
+PORTBbits.RB0 = 0;
+PORTBbits.RB1 = 0;
+PORTBbits.RB2 = 0;
+PORTBbits.RB3 = 0;
+delay_ms(500);
+PORTBbits.RB0 = 1;
+PORTBbits.RB1 = 1;
+PORTBbits.RB2 = 1;
+PORTBbits.RB3 = 1;
+delay_ms(500);
+
+}
+
+
+
+}
+
+# 107
+}
+
+# 125
 void delay_ms(unsigned int tempodeatraso)
 {
 while(--tempodeatraso)
@@ -6463,4 +6492,3 @@ while(--tempodeatraso)
 _delay((unsigned long)((1)*(48000000/4000.0)));
 }
 }
-

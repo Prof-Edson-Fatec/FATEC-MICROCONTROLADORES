@@ -11,19 +11,19 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\edson\AppData\Local\Temp\svhk.obj
+$C:\Users\edson\AppData\Local\Temp\sm8s.obj
 end_init CODE 0 0 0 4 1
 idloc IDLOC 0 200000 200000 8 1
 config CONFIG 0 300000 300000 E 1
 $dist/default/production\Aula_4.X.production.obj
 smallconst SMALLCONST 0 800 800 36 1
-text1 CODE 0 894 894 22 1
-text0 CODE 0 86C 86C 28 1
+text1 CODE 0 898 898 22 1
+text0 CODE 0 86C 86C 2C 1
 cstackCOMRAM COMRAM 1 19 19 3 1
 dataCOMRAM COMRAM 1 12 12 7 1
 bssCOMRAM COMRAM 1 1 1 11 1
 cinit CODE 0 836 836 36 1
-idataCOMRAM CODE 0 8B6 8B6 7 1
+idataCOMRAM CODE 0 8BA 8BA 7 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -40,15 +40,15 @@ BANK6 000600-0006FF 1
 BANK7 000700-0007FF 1
 BIGRAM 00001C-0007FF 1
 CODE 000004-0007FF 1
-CODE 0008BD-00627F 1
+CODE 0008C1-00627F 1
 COMRAM 00001C-00005F 1
 CONST 000004-0007FF 1
-CONST 0008BD-00627F 1
+CONST 0008C1-00627F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 0008BD-00627F 1
+MEDIUMCONST 0008C1-00627F 1
 RAM 000060-0007FF 1
 SFR 000F60-000FFF 1
-SMALLCONST 0008BD-00627F 1
+SMALLCONST 0008C1-00627F 1
 STACK 000060-0007FF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -64,48 +64,50 @@ STACK 000060-0007FF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\Aula_4.X.production.obj
-"C:\Users\edson\AppData\Local\Temp\svhk.":910 836 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":912 836 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":915 836 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":933 836 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":934 83A cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":935 83C cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":936 83C cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":937 83E cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":938 840 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":943 842 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":944 844 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":945 846 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":946 848 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":947 84A cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":948 84C cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":949 84E cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":950 852 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":951 856 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":952 856 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":953 858 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":954 85C cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":955 85E cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":956 860 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":962 862 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":964 862 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":965 864 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":966 866 cinit CODE
-"C:\Users\edson\AppData\Local\Temp\svhk.":967 868 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":912 836 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":914 836 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":917 836 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":935 836 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":936 83A cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":937 83C cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":938 83C cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":939 83E cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":940 840 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":945 842 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":946 844 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":947 846 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":948 848 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":949 84A cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":950 84C cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":951 84E cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":952 852 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":953 856 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":954 856 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":955 858 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":956 85C cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":957 85E cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":958 860 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":964 862 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":966 862 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":967 864 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":968 866 cinit CODE
+"C:\Users\edson\AppData\Local\Temp\sm8s.":969 868 cinit CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":44 86C text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":47 86C text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":48 870 text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":49 874 text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":54 876 text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":55 878 text0 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":56 884 text0 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":56 87A text0 CODE
 "C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":57 886 text0 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":74 894 text1 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":76 894 text1 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":78 896 text1 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":76 8A6 text1 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":80 8B2 text1 CODE
-"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":76 8B4 text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":58 888 text0 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":59 88A text0 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":76 898 text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":78 898 text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":80 89A text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":78 8AA text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":82 8B6 text1 CODE
+"C:\Users\edson\OneDrive\Documentos\GitHub\FATEC\Aula 4.X\Pisca_Led.c":78 8B8 text1 CODE
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -118,6 +120,7 @@ $dist/default/production\Aula_4.X.production.obj
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
+_RB0 7C08 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 __S0 30000E 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 __S1 1C 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 __S2 0 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
@@ -125,8 +128,8 @@ __Hintentry 0 0 ABS 0 intentry dist/default/production\Aula_4.X.production.obj
 __Lintentry 0 0 ABS 0 intentry dist/default/production\Aula_4.X.production.obj
 _LATB F8A 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 _main 86C 0 CODE 0 text0 dist/default/production\Aula_4.X.production.obj
-___sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\svhk.obj
-start 0 0 CODE 0 init C:\Users\edson\AppData\Local\Temp\svhk.obj
+___sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\sm8s.obj
+start 0 0 CODE 0 init C:\Users\edson\AppData\Local\Temp\sm8s.obj
 _TRISB F93 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 __Hirdata 0 0 CODE 0 irdata dist/default/production\Aula_4.X.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\Aula_4.X.production.obj
@@ -154,7 +157,7 @@ __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Aula_4.X.product
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Aula_4.X.production.obj
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Aula_4.X.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Aula_4.X.production.obj
-_delay_ms 894 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
+_delay_ms 898 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Aula_4.X.production.obj
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Aula_4.X.production.obj
 __Hintret 0 0 ABS 0 intret dist/default/production\Aula_4.X.production.obj
@@ -180,11 +183,11 @@ __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Aula_4.X.production.ob
 __end_of_dpowers 829 0 SMALLCONST 0 smallconst dist/default/production\Aula_4.X.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\Aula_4.X.production.obj
 __Ldata 0 0 ABS 0 data dist/default/production\Aula_4.X.production.obj
-stackhi 7FF 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\svhk.obj
+stackhi 7FF 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\sm8s.obj
 EscreveInteiroLCD@F5476 12 0 COMRAM 1 dataCOMRAM dist/default/production\Aula_4.X.production.obj
 __Htemp 0 0 COMRAM 1 temp dist/default/production\Aula_4.X.production.obj
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\Aula_4.X.production.obj
-stacklo 60 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\svhk.obj
+stacklo 60 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\sm8s.obj
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\Aula_4.X.production.obj
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\Aula_4.X.production.obj
 __Hinit 0 0 CODE 0 init dist/default/production\Aula_4.X.production.obj
@@ -192,7 +195,7 @@ __Linit 0 0 CODE 0 init dist/default/production\Aula_4.X.production.obj
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\Aula_4.X.production.obj
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\Aula_4.X.production.obj
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\Aula_4.X.production.obj
-__end_of_main 894 0 CODE 0 text0 dist/default/production\Aula_4.X.production.obj
+__end_of_main 898 0 CODE 0 text0 dist/default/production\Aula_4.X.production.obj
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\Aula_4.X.production.obj
 __Htext 0 0 ABS 0 text dist/default/production\Aula_4.X.production.obj
 __Ltext 0 0 ABS 0 text dist/default/production\Aula_4.X.production.obj
@@ -227,7 +230,7 @@ __Ltext0 0 0 ABS 0 text0 dist/default/production\Aula_4.X.production.obj
 __Htext1 0 0 ABS 0 text1 dist/default/production\Aula_4.X.production.obj
 __Ltext1 0 0 ABS 0 text1 dist/default/production\Aula_4.X.production.obj
 __ptext0 86C 0 CODE 0 text0 dist/default/production\Aula_4.X.production.obj
-__ptext1 894 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
+__ptext1 898 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Aula_4.X.production.obj
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Aula_4.X.production.obj
 __pbssCOMRAM 1 0 COMRAM 1 bssCOMRAM dist/default/production\Aula_4.X.production.obj
@@ -263,32 +266,32 @@ __size_of_delay_ms 0 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 __Hcinit 0 0 ABS 0 cinit dist/default/production\Aula_4.X.production.obj
 __Lcinit 0 0 ABS 0 cinit dist/default/production\Aula_4.X.production.obj
 __pcinit 836 0 CODE 0 cinit dist/default/production\Aula_4.X.production.obj
-__ramtop 800 0 RAM 0 ramtop C:\Users\edson\AppData\Local\Temp\svhk.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\edson\AppData\Local\Temp\svhk.obj
+__ramtop 800 0 RAM 0 ramtop C:\Users\edson\AppData\Local\Temp\sm8s.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\edson\AppData\Local\Temp\sm8s.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\Aula_4.X.production.obj
 _dpowers 801 0 SMALLCONST 0 smallconst dist/default/production\Aula_4.X.production.obj
 __Hconst 0 0 CODE 0 const dist/default/production\Aula_4.X.production.obj
 __Lconst 0 0 CODE 0 const dist/default/production\Aula_4.X.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\svhk.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\svhk.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\sm8s.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\edson\AppData\Local\Temp\sm8s.obj
 __Hend_init 4 0 CODE 0 end_init dist/default/production\Aula_4.X.production.obj
 __Lend_init 0 0 CODE 0 end_init dist/default/production\Aula_4.X.production.obj
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Aula_4.X.production.obj
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Aula_4.X.production.obj
-__pidataCOMRAM 8B6 0 CODE 0 idataCOMRAM dist/default/production\Aula_4.X.production.obj
-__end_of_delay_ms 8B6 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\edson\AppData\Local\Temp\svhk.obj
+__pidataCOMRAM 8BA 0 CODE 0 idataCOMRAM dist/default/production\Aula_4.X.production.obj
+__end_of_delay_ms 8BA 0 CODE 0 text1 dist/default/production\Aula_4.X.production.obj
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\edson\AppData\Local\Temp\sm8s.obj
 delay_ms@tempodeatraso 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Aula_4.X.production.obj
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\Aula_4.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Aula_4.X.production.obj
 __stringdata 829 0 SMALLCONST 0 smallconst dist/default/production\Aula_4.X.production.obj
-__accesstop 60 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\svhk.obj
+__accesstop 60 0 ABS 0 - C:\Users\edson\AppData\Local\Temp\sm8s.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Aula_4.X.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Aula_4.X.production.obj
-intlevel0 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\svhk.obj
-intlevel1 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\svhk.obj
-intlevel2 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\svhk.obj
-intlevel3 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\svhk.obj
+intlevel0 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\sm8s.obj
+intlevel1 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\sm8s.obj
+intlevel2 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\sm8s.obj
+intlevel3 0 0 CODE 0 text C:\Users\edson\AppData\Local\Temp\sm8s.obj
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Aula_4.X.production.obj
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Aula_4.X.production.obj
 __pdataCOMRAM 12 0 COMRAM 1 dataCOMRAM dist/default/production\Aula_4.X.production.obj
@@ -324,4 +327,4 @@ smallconst 0 800 800 36 1
 config 0 300000 300000 E 1
 idloc 0 200000 200000 8 1
 bssCOMRAM 1 1 1 1B 1
-cinit 0 836 836 87 1
+cinit 0 836 836 8B 1
